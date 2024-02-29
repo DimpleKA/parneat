@@ -7,6 +7,79 @@ position: sticky;
 top: 0;
 color: #ffb30e;
 }
+.navbar-one{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-one-logo{
+  height: 40px;
+}
+.navbar-two{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gradient-text {
+  background: linear-gradient(50deg, #fb3c00, #ffb800);
+  -webkit-background-clip: text; /* For Safari/Chrome */
+  background-clip: text;
+  color: transparent;
+  font-size: xx-large;
+  font-weight: 700;
+}
+.navbar-two-span-deliver{
+  color: black;
+    font-weight: 700;
+}
+.navbar-two-span-current-loc{
+  color: black;
+}
+.navbar-two-span-street{
+  color: black;
+  font-weight: 700;
+}
+
+
+.navbar-three{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Adjust as needed */
+  transform: translateY(-50%);
+}
+
+input[type="text"] {
+  padding-left: 30px; /* Adjust padding to accommodate the icon */
+  height: 40px;
+    border: none;
+    outline: 4px solid #fbdece;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+.navbar-three-Login{
+  width: 136px;
+  height: 40px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+}
+.navbar-three-Login-icon{
+  padding-right: 10px;
+}
 
 /* //////////////////////////////////////////////////////////////////////////////////////////// */
 
