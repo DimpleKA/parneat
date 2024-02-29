@@ -1,9 +1,19 @@
 @media only screen and (max-width: 767px) {
    
-    .main-left,
-    .main-right {
-    /* Adjust spacing between elements */
+    .main{
+        display: inline-grid;
+        height: 600px;
+        background-color: #ffb30e;
+      }
+
+      .main-right {
+        width: 90%;
+        }
+
+    .main-left{
+
     }
+    
   
     .main-right {
       order: 1; /* Set the order of .main-right to 1 (default is 0) */
