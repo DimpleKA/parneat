@@ -1,0 +1,21 @@
+@media only screen and (max-width: 767px) {
+   
+    .main-left,
+    .main-right {
+    /* Adjust spacing between elements */
+    }
+  
+    .main-right {
+      order: 1; /* Set the order of .main-right to 1 (default is 0) */
+    }
+  
+    .main-left {
+      order: 2; /* Set the order of .main-left to 2 */
+    }
+    
+    
+      }
+    /* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    @media only screen and (min-width: 768px) {
+      
+      }

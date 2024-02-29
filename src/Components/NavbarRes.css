@@ -1,0 +1,38 @@
+@media only screen and (max-width: 767px) {
+    .navbar-two,
+    .navbar-three {
+        display: none;
+    }
+
+    .navbar-four {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+#hide{
+    display: none;
+}
+    .navbar-four-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        height: 30px;
+        width: 47px;
+        border: 1px solid #e0e1e3;
+    }
+
+    .navbar-four-menu svg {
+        font-size: xx-large;
+    }
+}
+
+    /* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    @media only screen and (min-width: 768px) {
+       .navbar-four{
+        display: none;
+        
+       }
+       
+      }
+

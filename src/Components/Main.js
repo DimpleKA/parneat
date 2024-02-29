@@ -1,4 +1,5 @@
 import React from "react";
+import './MainRes.css';
 import noodlebowl from "../Assets/noodle bowl.jpg";
 
 const Main = () => {
